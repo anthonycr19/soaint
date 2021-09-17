@@ -4,15 +4,17 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+// Components PrimeNg
 import { TableModule } from 'primeng/table';
 import { ButtonModule } from 'primeng/button';
-import {InputTextModule} from 'primeng/inputtext';
+import { InputTextModule } from 'primeng/inputtext';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Use of HTTP Cliente
 import { HttpClientModule } from '@angular/common/http';
 
+// Componentes
 import { CreateDetailComponent } from './core/feature/create-detail/create-detail.component';
 import { DeleteDetailComponent } from './core/feature/delete-detail/delete-detail.component';
 import { EditDetailComponent } from './core/feature/edit-detail/edit-detail.component';

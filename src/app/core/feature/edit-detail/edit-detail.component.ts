@@ -86,9 +86,9 @@ export class EditDetailComponent implements OnInit {
       // Pusheamos la información en el arreglo declarado previamente
       localStorage.removeItem('details');
       localStorage.setItem('details', JSON.stringify(this.dataItems));
-        // Finalmente, limpiamos el formulario
+     
 
-      
+      //Finalemte redirigimos al listado de items
       this.router.navigate(['/listItems'])
       
     }else{
